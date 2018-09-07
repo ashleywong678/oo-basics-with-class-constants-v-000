@@ -19,11 +19,7 @@ class Shoe
   end
 
   def brand
-    BRANDS.each do |b|
-      if b != @brand
-        BRANDS << @brand
-      end
-    end
+    i = 0
   end
 
 end
