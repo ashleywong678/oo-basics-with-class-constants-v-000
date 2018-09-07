@@ -6,16 +6,23 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |b|
-      if b != @brand
-        BRANDS << brand
-      end
-    end
+    # BRANDS.each do |b|
+    #   if b != @brand
+    #     BRANDS << brand
+    #   end
+    # end
   end
 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
+  end
+
+  def brand
+    BRANDS.each do |b|
+      if b != @brand
+        BRANDS << @brand
+      end
   end
 
 end
