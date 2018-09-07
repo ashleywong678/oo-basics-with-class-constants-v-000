@@ -20,7 +20,7 @@ class Shoe
 
   def brand
     i = 0
-      while I<BRANDS.length
+      while i<BRANDS.length
   
       
   end
