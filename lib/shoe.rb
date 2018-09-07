@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     # BRANDS.each do |b|
     #   if b != @brand
-    #     BRANDS << brand
+         BRANDS << brand
     #   end
     # end
   end
@@ -16,13 +16,6 @@ class Shoe
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
-  end
-
-  def brand
-    i = 0
-      while i<BRANDS.length
-  
-      
   end
 
 end
