@@ -23,6 +23,7 @@ class Shoe
       if b != @brand
         BRANDS << @brand
       end
+    end
   end
 
 end
